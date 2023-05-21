@@ -1,0 +1,61 @@
+{
+  "weekly": "weekly",
+  "monthly": "monthly",
+  "quarterly": "quarterly",
+  "biannual": "biannual",
+  "yearly": "yearly",
+  "year": "year",
+  "nyear": "{count,plural, =1{1 year} other{{count} years}}",
+  "@nyear": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "month": "month",
+  "nmonth": "{count,plural, =1{1 month} other{{count} months}}",
+  "@nmonth": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "week": "week",
+  "nweek": "{count,plural, =1{1 week} other{{count} weeks}}",
+  "@nweek": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "day": "day",
+  "nday": "{count,plural, =1{1 day} other{{count} days}}",
+  "@nday": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "continue_button": "continue",
+  "@continue_button": {
+    "description": "A button to select a premium subscription"
+  },
+  "most_popular": "Most popular",
+  "@most_popular": {
+    "description": "A banner usually to show which subscription is most popular"
+  },
+  "restore_purchase": "Restore purchase",
+  "manage_subscriptions_title": "Manage subscriptions",
+  "manage_subscription_google_play_title": "Manage your subscriptions on Google Play",
+  "manage_subscription_google_play_button": "Google Play Subscriptions",
+  "manage_subscription_productId": "{productId} verwalten",
+  "@manage_subscription_productId": {
+    "placeholders": {
+      "productId": {
+        "type": "String",
+        "example": "yearly_pro"
+      }
+    }
+  },
+  "manage_subscription_apple_appstore_title":  "Manage your subscriptions on the App Store",
+  "manage_subscription_apple_appstore_button": "Go to the subscriptions page",
+  "subscription_options_title": "Subscription options",
+  "premium": "Premium",
+  "app_bar_default_title": "Go Premium"
+}
